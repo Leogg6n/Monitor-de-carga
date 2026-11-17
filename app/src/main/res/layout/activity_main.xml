@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111111">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monitor de Carga Real"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/txtEstado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Esperando..."
+            android:textColor="#4CAF50"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amperaje REAL:"
+            android:textColor="#AAAAAA"
+            android:textSize="16sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/txtAmperaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-- mA"
+            android:textColor="#00E0A0"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/txtVoltaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voltaje: -- mV"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/txtPotencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Potencia: -- W"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/txtNivel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Batería: -- %"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/txtTemperatura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temperatura: -- °C"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:paddingBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/txtAlerta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#FF5252"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="16dp"
+            android:visibility="gone"/>
+    </LinearLayout>
+</ScrollView>
